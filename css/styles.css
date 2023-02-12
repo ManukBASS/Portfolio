@@ -6,7 +6,7 @@
     --font-medium: 500;
 }
 
-/*===== Colores =====*/
+/*===== Colors =====*/
 :root{
     --first-color: #5361FF;
     --white-color: #FAFAFF;
@@ -15,7 +15,7 @@
     --global-color: #900C3F;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Font & Typography =====*/
 :root{
     --body-font: 'Montserrat', sans-serif;
     --big-font-size: 6.25rem;
@@ -32,7 +32,7 @@
     }
 }
 
-/*===== Margenes =====*/
+/*===== Margins =====*/
 :root{
     --mb-1: .5rem;
     --mb-2: 1rem;
@@ -386,7 +386,6 @@ img{
 }
 
 /* ===== MEDIA QUERIES =====*/
-/* For small devices */
 @media screen and (max-width: 320px) {
   .home__img {
     width: 230px;
@@ -489,7 +488,6 @@ img{
     }
 }
 
-/* For tall screens on mobiles y desktop*/
 @media screen and (min-height: 721px) {
     .home__container {
         height: 640px;
