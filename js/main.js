@@ -63,11 +63,11 @@ sr.reveal('.about__social-icon', {delay: 600, interval: 200})
 
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle', {})
-sr.reveal('.skills__name', {distance: '20px', delay: 50, interval: 100})
+sr.reveal('.skills__name', {distance: '20px', delay: 30, interval: 90})
 sr.reveal('.skills__img', {delay: 400})
 
 /*SCROLL PORTFOLIO*/
-sr.reveal('.portfolio__img', {interval: 200})
+sr.reveal('.portfolio__img', {interval: 100})
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__subtitle', {})
