@@ -10,7 +10,7 @@
         <!-- ===== BOX ICONS ===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="/img/favicon-pf.ico">
         <title>Portfolio Manuel Zarraga</title>
     </head>
     <body>
@@ -196,7 +196,7 @@
                 <div class="contact__container bd-grid">
                     <div class="contact__info">
                         <h3 class="contact__subtitle">EMAIL</h3>
-                        <span class="contact__text">manuzarraga@hotmail.com</span>
+                        <a class="contact__text">manuzarraga@hotmail.com</a>
 
                         <h3 class="contact__subtitle">TELEFONO</h3>
                         <span class="contact__text">+54 2984405920</span>
@@ -205,15 +205,18 @@
                         <span class="contact__text">CABA, Argentina</span>
                     </div>
 
-                    <form action="" class="contact__form">
+                    <form action="https://formsubmit.co/manuzaraga@hotmail.com" class="contact__form">
                         <div class="contact__inputs">
                             <input type="text" placeholder="Nombre" class="contact__input">
                             <input type="mail" placeholder="Email" class="contact__input">
+                            <input type="text" placeholder="Asunto" class="contact__input">
                         </div>
 
                         <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
 
                         <input type="submit" value="Enviar" class="contact__button">
+                        <input type="hidden" name="_next" value="https://portfolio-ten-orpin-92.vercel.app/">
+                        <input type="hidden" name="_captcha" value="false">
                     </form>
                 </div>
             </section>
