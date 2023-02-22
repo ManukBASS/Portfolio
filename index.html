@@ -1,261 +1,277 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- ===== BOX ICONS ===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="icon" type="image/x-icon" href="/img/favicon-pf.ico">
-        <title>Portfolio Manuel Zarraga</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Manuel Zarraga <i class="fa-solid fa-code"></i></a>
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="/img/favicon-pf.ico">
+    <title>Portfolio Manuel Zarraga</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Manuel Zarraga <i class="fa-solid fa-code"></i></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre Mi</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <h1 class="home__title"><span>LET'S</span><br>CODE.</h1>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt'></i>Empecemos</a>
                 </div>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">Sobre Mi</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home" id="home">
-                <div class="home__container bd-grid">
-                    <h1 class="home__title"><span>LET'S</span><br>CODE.</h1>
-
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Empecemos</a>
-                    </div>
-
-                </div>
-            </section>
-            
-            <!--===== ABOUT =====-->
-            <section class="about section" id="about">
-                <h2 class="section-title">Sobre Mi</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="" alt="">
-                    </div>
-
-                    <div>
-                        <h2 class="about__subtitle">Hola ! Soy Manu Zarraga</h2>
-                        <span class="about__profession">Desarrollador Web</span>
-                        <p class="about__text">Nacido en 1999, en Rio Negro, Argentina. Apasionado por los videojuegos, la Fórmula 1 (Forza Ferrari) y amante de los michis <i class='bx bxs-cat'></i>
-                        <br>
-                        Me gusta desarrollar programas y diseñar con un gran énfasis en los detalles. Actualmente me encuentro aprendiendo React Js y SASS.</p>
-
-                        <div class="about__social">
-                            <a href="https://www.linkedin.com/in/manuel-zarraga-953a6b229/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
-                            <a href="https://github.com/ManukBASS" class="about__social-icon"><i class='bx bxl-github' ></i></a>
-                            <a href="/assets/CV Manuel Zarraga.pdf" download="CV Manuel Zarraga" class="about__cv">Descarga mi CV</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">
-                    <div class="skills__box">
-                        <h3 class="skills__subtitle">Front-End</h3>
-                        <span class="skills__name">HTML</span>
-                        <span class="skills__name">CSS</span>
-                        <span class="skills__name">JavaScript</span>
-                        <span class="skills__name">ReactJS</span>
-
-                        <h3 class="skills__subtitle">Back-End</h3>
-                        <span class="skills__name">Java</span>
-                        <span class="skills__name">MySQL</span>
-                        <span class="skills__name">Spring</span>
-                        <span class="skills__name">PHPMyAdmin</span>
-                        <span class="skills__name">Postman</span>
-                        
-                        <h3 class="skills__subtitle">Diseño</h3>
-                        <span class="skills__name">Figma</span>
-                        <span class="skills__name">Canva</span>
-
-                        <h3 class="skills__subtitle">Lenguajes y Herramientas</h3>
-                        <span class="skills__name">Python</span>
-                        <span class="skills__name">Git</span>
-                        <span class="skills__name">Jest</span>
-                        <span class="skills__name">Node.JS</span>
-                    </div>
-
-                    <div class="skills__img">
-                        <img src="assets/img/skill.jpg" alt="">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== PORTFOLIO =====-->
-            <section class="portfolio section" id="portfolio">
-                <h2 class="section-title">Portfolio</h2>
-
-                <div class="portfolio__container bd-grid">
-                    <div class="portfolio__img">
-                        <h2>Calculadora</h2>
-                        <img src="/img/work-calculadora.jpeg" alt="Calculadora">
-
-                        <div class="portfolio__link">
-                            <a href="https://calculadora-vm7l.vercel.app/" class="portfolio__link-name">Ver trabajo</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <h2>Responsive Page</h2>
-                        <img src="/img/work-manage_web.jpeg" alt="Responsive">
-
-                        <div class="portfolio__link">
-                            <a href="https://manage-web-gqvc.vercel.app/" class="portfolio__link-name">Ver trabajo</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <h2>F1 E-commerce</h2>
-                        <img src="/img/wrok-pit_shop.jpeg" alt="F1">
-
-                        <div class="portfolio__link">
-                            <a href="https://pit-shop.vercel.app/" class="portfolio__link-name">Ver trabajo</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <h2>Clínica Odontológica</h2>
-                        <img src="/img/work-clinica.jpeg" alt="Clínica">
-
-                        <div class="portfolio__link">
-                            <a href="https://github.com/ManukBASS/Clinica_Odontologica" class="portfolio__link-name">Ver trabajo</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <h2>Conversor de Monedas</h2>
-                        <img src="/img/work-conversor.jpeg" alt="Conversor">
-
-                        <div class="portfolio__link">
-                            <a href="https://conversor-monedas.vercel.app/" class="portfolio__link-name">Ver Trabajo</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <h2>QR Generator</h2>
-                        <img src="/img/work-qr.jpeg" alt="QR">
-
-                        <div class="portfolio__link">
-                            <a href="https://qr-generator-fawn.vercel.app/" class="portfolio__link-name">Ver Trabajo</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <h2>"Miusik" MP3 Player</h2>
-                        <img src="/img/work-miusik.jpeg" alt="Miusik">
-
-                        <div class="portfolio__link">
-                            <a href="https://miusik.vercel.app/" class="portfolio__link-name">Ver trabajo</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="/img/work_in_progress-2.png" alt="WIP">
-
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">Trabajando en ello ;)</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="/img/work_in_progress-2.png" alt="WIP">
-
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">Trabajando en ello ;)</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contacto</h2>
-
-                <div class="contact__container bd-grid">
-                    <div class="contact__info">
-                        <h3 class="contact__subtitle">EMAIL</h3>
-                        <a class="contact__text">manuzarraga@hotmail.com</a>
-
-                        <h3 class="contact__subtitle">TELEFONO</h3>
-                        <span class="contact__text">+54 2984405920</span>
-
-                        <h3 class="contact__subtitle">DIRECCIÓN</h3>
-                        <span class="contact__text">CABA, Argentina</span>
-                    </div>
-
-                    <form action="https://formsubmit.co/a84e5b6c27679b612c4a585bdd6f806a" method="POST" class="contact__form">
-                        <div class="contact__inputs">
-                            <input type="text" placeholder="Nombre" name="Name" class="contact__input">
-                            <input type="mail" placeholder="Email" name="Email" class="contact__input">
-                            <input type="text" placeholder="Asunto" name="Subject" class="contact__input">
-                        </div>
-
-                        <textarea name="Comments" id="" cols="0" rows="10" class="contact__input"></textarea>
-
-                        <input type="submit" value="Enviar" class="contact__button">
-                        <input type="hidden" name="_next" value="https://portfolio-ten-orpin-92.vercel.app/">
-                        <input type="hidden" name="_captcha" value="false">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer section">
-            <div class="footer__container bd-grid">
-                <div class="footer__data">
-                    <h2 class="footer__title">MANU ZARRAGA</h2>
-                    <p class="footer__text">Gracias por visitar mi página, espero que te hayan gustado mis trabajos ! <br> Te invito a ver mi GitHub para conocer más a fondo mis proyectos.</p>
-                </div>
-
-                <div class="footer__data">
-                    <h2 class="footer__title">EXPLORA</h2>
-                    <ul>
-                        <li><a href="#home" class="footer__link">Home</a></li>
-                        <li><a href="#about" class="footer__link">Sobre Mi</a></li>
-                        <li><a href="#skills" class="footer__link">Skills</a></li>
-                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
-                        <li><a href="#contact" class="footer__link">Contacto</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer__data">
-                    <h2 class="footer__title">MIS REDES</h2>
-                    <a href="https://www.instagram.com/manuu.z/?hl=es" class="footer__social"><i class='bx bxl-instagram' ></i></a>
-                    <a href="https://twitter.com/Manuu_ZzZz" class="footer__social"><i class='bx bxl-twitter' ></i></a>
-                </div>
-
 
             </div>
-        </footer>
+        </section>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <script src="https://kit.fontawesome.com/a2d47808b7.js" crossorigin="anonymous"></script>
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">Sobre Mi</h2>
 
-        <!--===== MAIN JS =====-->
-        <script src="/js/main.js"></script>
-    </body>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">Hola ! Soy Manu Zarraga</h2>
+                    <span class="about__profession">Desarrollador Web</span>
+                    <p class="about__text">Nacido en 1999, en Rio Negro, Argentina. Apasionado por los videojuegos, la
+                        Fórmula 1 (Forza Ferrari) y amante de los michis <i class='bx bxs-cat'></i>
+                        <br>
+                        Me gusta desarrollar programas y diseñar con un gran énfasis en los detalles. Actualmente me
+                        encuentro aprendiendo React Js y SASS.
+                    </p>
+
+                    <div class="about__social">
+                        <a href="https://www.linkedin.com/in/manuel-zarraga-953a6b229/" class="about__social-icon"><i
+                                class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/ManukBASS" class="about__social-icon"><i
+                                class='bx bxl-github'></i></a>
+                        <a href="/assets/CV Manuel Zarraga.pdf" download="CV Manuel Zarraga" class="about__cv">Descarga
+                            mi CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Front-End</h3>
+                    <span class="skills__name">HTML</span>
+                    <span class="skills__name">CSS</span>
+                    <span class="skills__name">JavaScript</span>
+                    <span class="skills__name">ReactJS</span>
+
+                    <h3 class="skills__subtitle">Back-End</h3>
+                    <span class="skills__name">Java</span>
+                    <span class="skills__name">MySQL</span>
+                    <span class="skills__name">Spring</span>
+                    <span class="skills__name">PHPMyAdmin</span>
+                    <span class="skills__name">Postman</span>
+
+                    <h3 class="skills__subtitle">Diseño</h3>
+                    <span class="skills__name">Figma</span>
+                    <span class="skills__name">Canva</span>
+
+                    <h3 class="skills__subtitle">Lenguajes y Herramientas</h3>
+                    <span class="skills__name">Python</span>
+                    <span class="skills__name">Git</span>
+                    <span class="skills__name">Jest</span>
+                    <span class="skills__name">Node.JS</span>
+                </div>
+
+                <div class="skills__img">
+                    <img src="assets/img/skill.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--===== PORTFOLIO =====-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+
+            <div class="portfolio__container bd-grid">
+                <div class="portfolio__img">
+                    <h2>Calculadora</h2>
+                    <img src="/img/work-calculadora.jpeg" alt="Calculadora">
+
+                    <div class="portfolio__link">
+                        <a href="https://calculadora-vm7l.vercel.app/" class="portfolio__link-name">Ver trabajo</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <h2>Responsive Page</h2>
+                    <img src="/img/work-manage_web.jpeg" alt="Responsive">
+
+                    <div class="portfolio__link">
+                        <a href="https://manage-web-gqvc.vercel.app/" class="portfolio__link-name">Ver trabajo</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <h2>F1 E-commerce</h2>
+                    <img src="/img/wrok-pit_shop.jpeg" alt="F1">
+
+                    <div class="portfolio__link">
+                        <a href="https://pit-shop.vercel.app/" class="portfolio__link-name">Ver trabajo</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <h2>Clínica Odontológica</h2>
+                    <img src="/img/work-clinica.jpeg" alt="Clínica">
+
+                    <div class="portfolio__link">
+                        <a href="https://github.com/ManukBASS/Clinica_Odontologica" class="portfolio__link-name">Ver
+                            trabajo</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <h2>Conversor de Monedas</h2>
+                    <img src="/img/work-conversor.jpeg" alt="Conversor">
+
+                    <div class="portfolio__link">
+                        <a href="https://conversor-monedas.vercel.app/" class="portfolio__link-name">Ver Trabajo</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <h2>QR Generator</h2>
+                    <img src="/img/work-qr.jpeg" alt="QR">
+
+                    <div class="portfolio__link">
+                        <a href="https://qr-generator-fawn.vercel.app/" class="portfolio__link-name">Ver Trabajo</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <h2>"Miusik" MP3 Player</h2>
+                    <img src="/img/work-miusik.jpeg" alt="Miusik">
+
+                    <div class="portfolio__link">
+                        <a href="https://miusik.vercel.app/" class="portfolio__link-name">Ver trabajo</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="/img/work_in_progress-2.png" alt="WIP">
+
+                    <div class="portfolio__link">
+                        <a href="#" class="portfolio__link-name">Trabajando en ello ;)</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="/img/work_in_progress-2.png" alt="WIP">
+
+                    <div class="portfolio__link">
+                        <a href="#" class="portfolio__link-name">Trabajando en ello ;)</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contacto</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">EMAIL</h3>
+                    <a class="contact__text">manuzarraga@hotmail.com</a>
+
+                    <h3 class="contact__subtitle">TELEFONO</h3>
+                    <span class="contact__text">+54 2984405920</span>
+
+                    <h3 class="contact__subtitle">DIRECCIÓN</h3>
+                    <span class="contact__text">CABA, Argentina</span>
+                </div>
+
+                <form action="https://formsubmit.co/a84e5b6c27679b612c4a585bdd6f806a" method="POST"
+                    class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Nombre" name="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" name="Email" class="contact__input">
+                        <input type="text" placeholder="Asunto" name="Subject" class="contact__input">
+                    </div>
+
+                    <textarea name="Comments" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                    <input type="submit" value="Enviar" class="contact__button">
+                    <input type="hidden" name="_next" value="https://portfolio-ten-orpin-92.vercel.app/">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__data">
+                <h2 class="footer__title">MANU ZARRAGA</h2>
+                <p class="footer__text">Gracias por visitar mi página, espero que te hayan gustado mis trabajos ! <br>
+                    Te invito a ver mi GitHub para conocer más a fondo mis proyectos.</p>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">EXPLORA</h2>
+                <ul>
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#about" class="footer__link">Sobre Mi</a></li>
+                    <li><a href="#skills" class="footer__link">Skills</a></li>
+                    <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                    <li><a href="#contact" class="footer__link">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">MIS REDES</h2>
+                <a href="https://www.instagram.com/manuu.z/?hl=es" class="footer__social"><i
+                        class='bx bxl-instagram'></i></a>
+                <a href="https://twitter.com/Manuu_ZzZz" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.linkedin.com/in/manuel-zarraga-953a6b229/" class="footer__social"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/ManukBASS" class="footer__social"><i class='bx bxl-github'></i></a>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://kit.fontawesome.com/a2d47808b7.js" crossorigin="anonymous"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="/js/main.js"></script>
+</body>
+
 </html>
