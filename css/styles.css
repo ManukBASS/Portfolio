@@ -315,6 +315,7 @@ img{
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgba(255,255,255,.3);
@@ -323,6 +324,40 @@ img{
     backdrop-filter: blur(10px);
     transition: .3s;
 }
+
+.portfolio-tools{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.fa-html5{
+    color: #e34c26;
+}
+
+.fa-css3-alt{
+    color: #264de4;
+}
+
+.fa-square-js{
+    color: #f0db4f;
+}
+
+.fa-react{
+    color: #61DBFB;
+}
+
+.fa-java{
+    color: #f89820;
+}
+
+.spring-icon{
+    width: 4em;
+}
+
 .portfolio__img:hover .portfolio__link{
     bottom: 0;
 }
