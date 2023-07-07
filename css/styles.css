@@ -382,6 +382,14 @@ img {
 
 }
 
+.portfolio__img:hover .portfolio__link {
+    bottom: 0;
+}
+
+.portfolio__link-name {
+    color: var(--dark-color);
+}
+
 /* ICON COLORS */
 
 .fa-html5 {
@@ -416,17 +424,10 @@ img {
     color: #2D79C7;
 }
 
-.spring-icon {
-    width: 4em;
+.bxl-spring-boot {
+    color: #67AA3C;
 }
 
-.portfolio__img:hover .portfolio__link {
-    bottom: 0;
-}
-
-.portfolio__link-name {
-    color: var(--dark-color);
-}
 
 /* ===== CONTACT =====*/
 .contact__container {
