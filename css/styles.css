@@ -538,6 +538,19 @@ img {
         display: flex;
         align-items: center;
     }
+
+    #gata-img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #gata-img {
+        max-width: 300px;
+        max-height: 300px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -645,6 +658,7 @@ img {
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
     }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -652,6 +666,7 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
+
 }
 
 @media screen and (min-height: 721px) {
@@ -663,4 +678,5 @@ img {
         width: 500px;
         right: 24%;
     }
+
 }
