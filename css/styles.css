@@ -390,45 +390,6 @@ img {
     color: var(--dark-color);
 }
 
-/* ICON COLORS */
-
-.fa-html5 {
-    color: #e34c26;
-}
-
-.fa-css3-alt {
-    color: #264de4;
-}
-
-.fa-square-js {
-    color: #f0db4f;
-}
-
-.fa-react {
-    color: #61DBFB;
-}
-
-.fa-java {
-    color: #f89820;
-}
-
-.fa-sass {
-    color: #cc6699;
-}
-
-.bxl-redux {
-    color: #764ABC;
-}
-
-.bxl-typescript {
-    color: #2D79C7;
-}
-
-.bxl-spring-boot {
-    color: #67AA3C;
-}
-
-
 /* ===== CONTACT =====*/
 .contact__container {
     row-gap: 2rem;
