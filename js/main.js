@@ -64,7 +64,7 @@ sr.reveal('.about__cv', {delay: 900, interval: 300})
 
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle', {})
-sr.reveal('.skills__tech', {distance: '20px', delay: 30, interval: 90})
+sr.reveal('.skills__tech', {distance: '20px', delay: 30, interval: 50})
 sr.reveal('.skills__img', {delay: 400})
 
 /*SCROLL PORTFOLIO*/
@@ -75,3 +75,33 @@ sr.reveal('.contact__subtitle', {})
 sr.reveal('.contact__text', {interval: 200})
 sr.reveal('.contact__input', {delay: 400})
 sr.reveal('.contact__button', {delay: 600})
+
+/*MANDY*/
+
+function mostrarModalGata() {
+    var modalContainer = document.getElementById("modal-container");
+    var modalClose = document.getElementById("modal-close");
+    var miauAudio = document.getElementById("miau-audio");
+
+    modalContainer.classList.add("show");
+    modalContainer.style.display = "flex";
+
+    miauAudio.play();
+    modalClose.addEventListener("click", cerrarModalGata);
+    window.addEventListener("click", cerrarModalGataOutside);
+}
+
+function cerrarModalGata() {
+    var modalContainer = document.getElementById("modal-container");
+    modalContainer.style.display = "none";
+    modalContainer.classList.remove("show");
+}
+
+function cerrarModalGataOutside(event) {
+    var modalContainer = document.getElementById("modal-container");
+    if (event.target === modalContainer) {
+        modalContainer.style.display = "none";
+    }
+}
+
+document.getElementById("gatito-icon").addEventListener("click", mostrarModalGata);

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/css/icons.css">
 
     <!-- ===== BOX ICONS ===== -->
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/boxicons/2.0.7/css/boxicons.min.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" type="image/x-icon" href="/img/favicon-pf.ico">
     <title>Portfolio Manuel Zarraga</title>
@@ -66,7 +66,7 @@
                     <h2 class="about__subtitle">Hola ! Soy Manu Zarraga</h2>
                     <span class="about__profession">Fullstack Developer</span>
                     <p class="about__text">Nacido en 1999, en Rio Negro, Argentina. Apasionado por los videojuegos, la
-                        Fórmula 1 (Forza Ferrari) y amante de los michis <i class='bx bxs-cat bx-tada-hover'></i>
+                        Fórmula 1 (Forza Ferrari) y amante de los michis <i class='bx bxs-cat bx-tada-hover' id="gatito-icon"></i>
                         <br>
                         Me gusta desarrollar programas y diseñar con un gran énfasis en los detalles. Actualmente me
                         encuentro aprendiendo Typescript, Redux y Material UI.
@@ -83,6 +83,16 @@
                 </div>
             </div>
         </section>
+
+        <!--===== MANDY MODAL =====-->
+        <div class="modal" id="modal-container">
+            <div class="modal-content">
+                <div class="modal-text">Prrr, Mandy te da la bienvenida!</div>
+                <img src="/img/Mandy 2.jpeg" alt="Mi gata" id="gata-img">
+                <audio src="/assets/Mandy Meow.mp3" id="miau-audio"></audio>
+                <span class="modal-close" id="modal-close">&times;</span>
+            </div>
+        </div>
 
         <!--===== PORTFOLIO =====-->
         <section class="portfolio section" id="portfolio">
