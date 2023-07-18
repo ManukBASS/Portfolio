@@ -90,5 +90,23 @@
 }
 
 .materialUI{
+    display: inline;
     width: 40px;
+    margin-inline: .2rem;
 }
+
+.postman {
+    display: inline;
+    margin-inline: .2rem;
+}
+
+.mySql {
+    display: inline;
+    margin-inline: .2rem;
+}
+
+.jest {
+    display: inline;
+    margin-inline: .1rem;
+}
+

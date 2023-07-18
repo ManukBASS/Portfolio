@@ -91,14 +91,14 @@ img {
 
 /*===== CLASS CSS ===== */
 .section {
-    padding: 3rem 0;
+    padding: 1.5rem 0;
 }
 
 .section-title {
     position: relative;
     font-size: var(--h2-font-size);
     color: var(--dark-color);
-    margin: var(--mb-4) 0;
+    margin: var(--mb-2) 0;
     text-align: center;
 }
 
