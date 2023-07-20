@@ -53,10 +53,6 @@
     color: #FF9C08;
 }
 
-.bxl-figma {
-    color: #b85eff;
-}
-
 .bxl-nodejs {
     color: #68A063;
 }
@@ -92,7 +88,7 @@
 .materialUI{
     display: inline;
     width: 40px;
-    margin-inline: .2rem;
+    margin-inline: .3rem;
 }
 
 .postman {
@@ -110,3 +106,8 @@
     margin-inline: .1rem;
 }
 
+.figma {
+    display: inline;
+    width: 28px;
+    margin-inline: .3rem;
+}
