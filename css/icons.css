@@ -93,21 +93,28 @@
 
 .postman {
     display: inline;
-    margin-inline: .2rem;
+    margin-inline: .3rem;
 }
 
 .mySql {
     display: inline;
-    margin-inline: .2rem;
+    margin-inline: .1rem;
+
 }
 
 .jest {
     display: inline;
-    margin-inline: .1rem;
 }
 
 .figma {
     display: inline;
     width: 28px;
     margin-inline: .3rem;
+}
+
+.supabase{
+    display: inline;
+    width: 40px;
+    margin-inline: .2rem;
+
 }
