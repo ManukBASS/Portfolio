@@ -360,6 +360,7 @@ img {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* .portfolio__img:hover {
