@@ -1,5 +1,5 @@
 /* ICONS */
-.bxs-cat:hover{
+.bxs-cat:hover {
     cursor: pointer;
 }
 
@@ -17,7 +17,7 @@
     color: #ecd32c;
 }
 
-.bxl-tailwind-css{
+.bxl-tailwind-css {
     color: #07B0CE;
 }
 
@@ -65,8 +65,12 @@
     color: #787CB4;
 }
 
-.bxl-mongodb{
+.bxl-mongodb {
     color: #449A45;
+}
+
+.bxl-firebase {
+    color: #FFA000
 }
 
 .bxl-gitlab {
@@ -77,7 +81,7 @@
     color: #E84E31;
 }
 
-.bxl-visual-studio{
+.bxl-visual-studio {
     color: #207DB3;
 }
 
@@ -85,7 +89,7 @@
     color: #0B090C;
 }
 
-.materialUI{
+.materialUI {
     display: inline;
     width: 40px;
     margin-inline: .3rem;
@@ -112,7 +116,7 @@
     margin-inline: .3rem;
 }
 
-.supabase{
+.supabase {
     display: inline;
     width: 40px;
     margin-inline: .2rem;
