@@ -71,6 +71,7 @@ sr.reveal('.skills__img', { delay: 400 })
 /*SCROLL PORTFOLIO*/
 sr.reveal('.computer-icon', { interval: 200 })
 sr.reveal('.mobile-icon', { interval: 200 })
+sr.reveal('.portfolio__filters-p', { interval: 300 })
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__subtitle', {})

@@ -296,37 +296,6 @@ img {
     margin-bottom: 5px;
 }
 
-/* ===== SKILLS =====*/
-.skills__container {
-    row-gap: 2rem;
-}
-
-.skills__subtitle {
-    color: var(--global-color);
-    margin-bottom: var(--mb-3);
-}
-
-.skills__name {
-    display: inline-block;
-    font-size: var(--small-font-size);
-    margin-right: var(--mb-2);
-    margin-bottom: var(--mb-3);
-    padding: .25rem .5rem;
-    background-color: var(--white-color);
-    border-radius: .25rem;
-    cursor: default;
-}
-
-.skills__name:hover {
-    background-color: var(--global-color);
-    color: var(--white-color);
-    cursor: default;
-}
-
-.skills__img img {
-    border-radius: .5rem;
-}
-
 /* ===== PORTFOLIO =====*/
 .portfolio {
     background-color: var(--white-color);
