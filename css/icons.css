@@ -45,14 +45,6 @@
     color: #67AA3C;
 }
 
-.bxl-microsoft-teams {
-    color: #595CB1;
-}
-
-.bxl-aws {
-    color: #FF9C08;
-}
-
 .bxl-nodejs {
     color: #68A063;
 }
@@ -61,32 +53,20 @@
     color: #3F76A5;
 }
 
-.bxl-php {
-    color: #787CB4;
-}
-
-.bxl-mongodb {
-    color: #449A45;
-}
-
 .bxl-firebase {
     color: #FFA000
 }
 
-.bxl-gitlab {
-    color: #FFA122;
-}
-
-.bxl-git {
-    color: #E84E31;
-}
-
-.bxl-visual-studio {
+.bx-mobile-alt {
     color: #207DB3;
 }
 
 .bxs-cat {
     color: #0B090C;
+}
+
+.bxs-error {
+    color: #FFA000;
 }
 
 .materialUI {

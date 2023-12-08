@@ -15,42 +15,12 @@
     <!-- ===== BOX ICONS ===== -->
     <link href="https://cdn.jsdelivr.net/boxicons/2.0.7/css/boxicons.min.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="/img/favicon-pf.ico">
     <title>Portfolio Manuel Zarraga</title>
 </head>
 
 <body>
-    <!--===== PROJECT MAPPING =====-->
-    <script>
-        axios.get('/json/projects.json')
-            .then(response => {
-                const projectsData = response.data;
-                const portfolioContainer = document.getElementById('portfolio-container');
-                projectsData.forEach(project => {
-                    const projectCard = `
-                        <div class="portfolio__img">
-                            <h2>${project.title}</h2>
-                            <img src="${project.image}" alt="${project.title}">
-                            <div class="portfolio__info">
-                                <p>${project.description}</p>
-                                <div class="portfolio__links">
-                                    ${project.liveLink ? `<a target="_blank" href="${project.liveLink}"><i class='bx bx-link bx-lg'></i></a>` : ''}
-                                <a target="_blank" href="${project.githubLink}">
-                                    <i class='bx bxl-github bx-lg'></i>
-                                </a>
-                                </div>
-                            </div>
-                            <div class="portfolio-tools">
-                                ${project.tools.map(tool => `<i class='bx bxl-${tool.toLowerCase()} bx-lg'></i>`).join('')}
-                            </div>
-                        </div>
-                    `;
-                    portfolioContainer.innerHTML += projectCard;
-                });
-                sr.reveal('.portfolio__img', { interval: 100 });
-            })
-            .catch(error => console.error('Error fetching projects:', error));
-    </script>
     <!--===== HEADER =====-->
     <header class="l-header">
         <nav class="nav bd-grid">
@@ -63,7 +33,6 @@
                     <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link" data-translate="about">Sobre Mi</a></li>
                     <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
                 </ul>
             </div>
@@ -104,7 +73,7 @@
                             id="gatito-icon"></i>
                         <br>
                         Me gusta desarrollar programas y diseñar con un gran énfasis en los detalles. Actualmente me
-                        encuentro aprendiendo Typescript, Redux y Material UI.
+                        encuentro aprendiendo Typescript, Firebase, Supabase y React Native.
                     </p>
 
                     <div class="about__social">
@@ -133,16 +102,19 @@
         <section class="portfolio section" id="portfolio">
             <h2 class="section-title">Portfolio</h2>
 
-            <div class="portfolio__container bd-grid" id="portfolio-container">
-                <!-- Work in Progress Maqueta -->
-                <!-- <div class="portfolio__img">
-                    <img src="/img/work_in_progress-2.png" alt="WIP">
+            <div class="portfolio__filters">
+                <div class="portfolio__filters_types">
+                    <i class="fas fa-computer bx-lg computer-icon" onclick="filterProjects('computer')"></i>
+                    <p>Desarrollo Web</p>
+                </div>
+                <div class="portfolio__filters_types">
+                    <i class="fas fa-mobile-alt bx-lg mobile-icon" onclick="filterProjects('mobile')"></i>
+                    <p>React Native</p>
+                </div>
 
-                    <div class="portfolio__link">
-                        <a href="#" class="portfolio__link-name">Trabajando en ello ;)</a>
-                    </div>
-                </div> -->
             </div>
+
+            <div class="portfolio__container bd-grid" id="portfolio-container"></div>
 
         </section>
 
@@ -220,6 +192,7 @@
 
     <!--===== MAIN JS =====-->
     <script src="/js/main.js"></script>
+    <script src="/js/projectMap.js"></script>
 </body>
 
 </html>

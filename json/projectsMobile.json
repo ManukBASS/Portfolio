@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Pokedex",
+    "image": "/img/mobile_work_pokedex.jpeg",
+    "description": "Tu propia PokeDex al alcance de tu mano. Mira a detalle las estadisticas de todos los Pokemon existentes y guarda tus favoritos !",
+    "githubLink": "https://github.com/ManukBASS/PokedexReactNative",
+    "tools": ["REACT"],
+    "other-tools": ["BX-MOBILE-ALT"]
+  },
+  {
+    "title": "En desarrollo...",
+    "image": "/img/work_in_progress-2.png",
+    "description": "¡Este proyecto aún se encuentra en desarrollo! Vuelve en otro momento, quizás ya esté listo ;)",
+    "githubLink": "",
+    "tools": ["REACT"],
+    "other-tools": ["BX-MOBILE-ALT"]
+  },
+  {
+    "title": "En desarrollo...",
+    "image": "/img/work_in_progress-2.png",
+    "description": "¡Este proyecto aún se encuentra en desarrollo! Vuelve en otro momento, quizás ya esté listo ;)",
+    "githubLink": "",
+    "tools": ["REACT"],
+    "other-tools": ["BX-MOBILE-ALT"]
+  },
+  {
+    "title": "En desarrollo...",
+    "image": "/img/work_in_progress-2.png",
+    "description": "¡Este proyecto aún se encuentra en desarrollo! Vuelve en otro momento, quizás ya esté listo ;)",
+    "githubLink": "",
+    "tools": ["REACT"],
+    "other-tools": ["BX-MOBILE-ALT"]
+  },
+  {
+    "title": "En desarrollo...",
+    "image": "/img/work_in_progress-2.png",
+    "description": "¡Este proyecto aún se encuentra en desarrollo! Vuelve en otro momento, quizás ya esté listo ;)",
+    "githubLink": "",
+    "tools": ["REACT"],
+    "other-tools": ["BX-MOBILE-ALT"]
+  },
+  {
+    "title": "En desarrollo...",
+    "image": "/img/work_in_progress-2.png",
+    "description": "¡Este proyecto aún se encuentra en desarrollo! Vuelve en otro momento, quizás ya esté listo ;)",
+    "githubLink": "",
+    "tools": ["REACT"],
+    "other-tools": ["BX-MOBILE-ALT"]
+  }
+]
