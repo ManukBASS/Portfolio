@@ -47,6 +47,7 @@
                     `;
                     portfolioContainer.innerHTML += projectCard;
                 });
+                sr.reveal('.portfolio__img', { interval: 100 });
             })
             .catch(error => console.error('Error fetching projects:', error));
     </script>
