@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- ===== SCRIPT ===== -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
     <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/icons.css">
@@ -17,6 +20,36 @@
 </head>
 
 <body>
+    <!--===== PROJECT MAPPING =====-->
+    <script>
+        axios.get('/json/projects.json')
+            .then(response => {
+                const projectsData = response.data;
+                const portfolioContainer = document.getElementById('portfolio-container');
+                projectsData.forEach(project => {
+                    const projectCard = `
+                        <div class="portfolio__img">
+                            <h2>${project.title}</h2>
+                            <img src="${project.image}" alt="${project.title}">
+                            <div class="portfolio__info">
+                                <p>${project.description}</p>
+                                <div class="portfolio__links">
+                                    ${project.liveLink ? `<a target="_blank" href="${project.liveLink}"><i class='bx bx-link bx-lg'></i></a>` : ''}
+                                <a target="_blank" href="${project.githubLink}">
+                                    <i class='bx bxl-github bx-lg'></i>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-tools">
+                                ${project.tools.map(tool => `<i class='bx bxl-${tool.toLowerCase()} bx-lg'></i>`).join('')}
+                            </div>
+                        </div>
+                    `;
+                    portfolioContainer.innerHTML += projectCard;
+                });
+            })
+            .catch(error => console.error('Error fetching projects:', error));
+    </script>
     <!--===== HEADER =====-->
     <header class="l-header">
         <nav class="nav bd-grid">
@@ -100,131 +133,6 @@
             <h2 class="section-title">Portfolio</h2>
 
             <div class="portfolio__container bd-grid" id="portfolio-container">
-                <div class="portfolio__img">
-                    <h2>Calculadora</h2>
-                    <img src="/img/work-calculadora.jpeg" alt="Calculadora">
-                    <div class="portfolio__info">
-                        <p>Una calculadora en línea que permite realizar
-                            operaciones
-                            matemáticas básicas como sumar, restar, multiplicar y dividir.</p>
-                        <div class="portfolio__links">
-                            <a target="_blank" href="https://calculadora-vm7l.vercel.app">
-                                <i class='bx bx-link bx-lg'></i>
-                            </a>
-                            <a target="_blank" href="https://github.com/ManukBASS/Calculadora">
-                                <i class='bx bxl-github bx-lg'></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="portfolio-tools">
-                        <i class='bx bxl-html5 bx-lg'></i>
-                        <i class='bx bxl-css3 bx-lg'></i>
-                        <i class='bx bxl-javascript bx-lg'></i>
-                    </div>
-                </div>
-                <div class="portfolio__img">
-                    <h2>F1 E-commerce</h2>
-                    <img src="/img/work-pit_shop.jpeg" alt="F1">
-                    <div class="portfolio__info">
-                        <p>E-commerce Fullstack, creado usando React y Material UI para el Frontend, Firebase para el
-                            Backend e integrado con Mercado Pago.</p>
-                        <div class="portfolio__links">
-                            <a target="_blank" href="https://pit-shop-enhanced.vercel.app/login">
-                                <i class='bx bx-link bx-lg'></i>
-                            </a>
-                            <a target="_blank" href="https://github.com/ManukBASS/Pit-Shop-Enhanced">
-                                <i class='bx bxl-github bx-lg'></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="portfolio-tools">
-                        <i class='bx bxl-react bx-lg'></i>
-                        <i class='bx bxl-firebase bx-lg'></i>
-                    </div>
-                </div>
-                <div class="portfolio__img">
-                    <h2>To-Do List</h2>
-                    <img src="/img/work-to_do_list.jpeg" alt="To-Do">
-                    <div class="portfolio__info">
-                        <p>Una simple lista de tareas que permite agregar recordatorios que persisten en la memoria
-                            local de cada usuario</p>
-                        <div class="portfolio__links">
-                            <a target="_blank" href="https://to-do-list-7wsm.vercel.app/">
-                                <i class='bx bx-link bx-lg'></i>
-                            </a>
-                            <a target="_blank" href="https://github.com/ManukBASS/To-Do-List">
-                                <i class='bx bxl-github bx-lg'></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="portfolio-tools">
-                        <i class='bx bxl-react bx-lg'></i>
-                        <i class='bx bxl-sass bx-lg'></i>
-                    </div>
-                </div>
-                <div class="portfolio__img">
-                    <h2>Clínica Odontológica</h2>
-                    <img src="/img/work-clinica.jpeg" alt="Clínica">
-                    <div class="portfolio__info">
-                        <p>App CRUD para una clínica odontológica. La misma permite ver, crear, editar o borrar los
-                            pacientes de la clínica</p>
-                        <div class="portfolio__links">
-                            <a target="_blank" href="https://github.com/ManukBASS/Clinica_Odontologica">
-                                <i class='bx bxl-github bx-lg'></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="portfolio-tools">
-                        <i class='bx bxl-react bx-lg'></i>
-                        <i class='bx bxl-css3 bx-lg'></i>
-                        <i class='bx bxl-java bx-lg'></i>
-                        <i class='bx bxl-spring-boot bx-lg'></i>
-                    </div>
-                </div>
-                <div class="portfolio__img">
-                    <h2>Miusik</h2>
-                    <img src="/img/work-miusik.jpeg" alt="Miusik">
-
-                    <div class="portfolio__info">
-                        <p>Miusik es un MP3 Web Player con cinco canciones de mi preferencia ! Sube/Baja/Mutea el
-                            volumen, cambia de canción o déjalo con Auto-Play !</p>
-                        <div class="portfolio__links">
-                            <a target="_blank" href="https://miusik.vercel.app/">
-                                <i class='bx bx-link bx-lg'></i>
-                            </a>
-                            <a target="_blank" href="https://github.com/ManukBASS/Miusik">
-                                <i class='bx bxl-github bx-lg'></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="portfolio-tools">
-                        <i class='bx bxl-html5 bx-lg'></i>
-                        <i class='bx bxl-css3 bx-lg'></i>
-                        <i class='bx bxl-javascript bx-lg'></i>
-                    </div>
-                </div>
-                <div class="portfolio__img">
-                    <h2>Space Tourism</h2>
-                    <img src="/img/work-space_tourism.jpeg" alt="Space-Tourism">
-
-                    <div class="portfolio__info">
-                        <p>Space Tourism es un desafío de Frontend Mentor, cuya propuesta era realizar una página con
-                            HTML, CSS y JS. Opté hacerla con React y Sass para aprender más</p>
-                        <div class="portfolio__links">
-                            <a target="_blank" href="https://space-tourism-seven-nu.vercel.app/">
-                                <i class='bx bx-link bx-lg'></i>
-                            </a>
-                            <a target="_blank" href="https://github.com/ManukBASS/Space_Tourism">
-                                <i class='bx bxl-github bx-lg'></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="portfolio-tools">
-                        <i class='bx bxl-react bx-lg'></i>
-                        <i class='bx bxl-sass bx-lg'></i>
-                    </div>
-                </div>
-
                 <!-- Work in Progress Maqueta -->
                 <!-- <div class="portfolio__img">
                     <img src="/img/work_in_progress-2.png" alt="WIP">
