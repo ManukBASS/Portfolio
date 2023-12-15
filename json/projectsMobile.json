@@ -1,18 +1,18 @@
 [
   {
     "title": "Pokedex",
-    "image": "/img/mobile_work_pokedex.jpeg",
+    "image": "/img/mobile_work_pokedex.png",
     "description": "Tu propia PokeDex al alcance de tu mano. Mira a detalle las estadisticas de todos los Pokemon existentes y guarda tus favoritos !",
     "githubLink": "https://github.com/ManukBASS/PokedexReactNative",
     "tools": ["REACT"],
     "other-tools": ["BX-MOBILE-ALT"]
   },
   {
-    "title": "En desarrollo...",
-    "image": "/img/work_in_progress-2.png",
-    "description": "¡Este proyecto aún se encuentra en desarrollo! Vuelve en otro momento, quizás ya esté listo ;)",
-    "githubLink": "",
-    "tools": ["REACT"],
+    "title": "Bank-Z",
+    "image": "/img/mobile_work_bankz.png",
+    "description": "Bank Z es tu Home Banking de confianza ! Ingresa o Retira efectivo, copia tus datos al clipboard y revisa tu actividad reciente !",
+    "githubLink": "https://github.com/ManukBASS/Bank-Z",
+    "tools": ["REACT", "FIREBASE"],
     "other-tools": ["BX-MOBILE-ALT"]
   },
   {
