@@ -1,11 +1,11 @@
 [
   {
-    "title": "Calculadora",
-    "image": "/img/work-calculadora.jpeg",
-    "description": "Una calculadora en línea que permite realizar operaciones matemáticas básicas como sumar, restar, multiplicar y dividir.",
-    "liveLink": "https://calculadora-vm7l.vercel.app",
-    "githubLink": "https://github.com/ManukBASS/Calculadora",
-    "tools": ["HTML5", "CSS3", "JavaScript"]
+    "title": "Next Chat",
+    "image": "/img/work-next_chat.jpeg",
+    "description": "Chat App creada con NextJs y React para el frontend y Firebase para el backend. La página permite registrarse/logearse y hablar con cualquier usuario registrado !",
+    "liveLink": "https://next-js-firebase-chat.vercel.app/",
+    "githubLink": "https://github.com/ManukBASS/NextJs-Firebase-Chat",
+    "tools": ["NEXTJS", "REACT", "MATERIALUI", "FIREBASE"]
   },
   {
     "title": "F1 E-Commerce",
@@ -13,7 +13,7 @@
     "description": "E-commerce Fullstack, creado usando React y Material UI para el Frontend, Firebase para el Backend e integrado con Mercado Pago.",
     "liveLink": "https://pit-shop-enhanced.vercel.app/login",
     "githubLink": "https://github.com/ManukBASS/Pit-Shop-Enhanced",
-    "tools": ["REACT", "Firebase"]
+    "tools": ["REACT", "MATERIALUI", "FIREBASE"]
   },
   {
     "title": "To-Do List",
@@ -28,7 +28,7 @@
     "image": "/img/work-clinica.jpeg",
     "description": "App CRUD para una clínica odontológica. La misma permite ver, crear, editar o borrar los pacientes de la clínica",
     "githubLink": "https://github.com/ManukBASS/Clinica_Odontologica",
-    "tools": ["REACT", "CSS3", "JAVA", "SPRING-BOOT"]
+    "tools": ["REACT", "CSS3", "JAVA", "SPRING"]
   },
   {
     "title": "Miusik",
