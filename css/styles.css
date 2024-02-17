@@ -474,6 +474,12 @@ img {
     color: var(--global-color);
 }
 
+.footer__socialBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .footer__social {
     font-size: 1.4rem;
     margin-right: var(--mb-1);

@@ -68,37 +68,3 @@
 .bxs-error {
     color: #FFA000;
 }
-
-.materialUI {
-    display: inline;
-    width: 40px;
-    margin-inline: .3rem;
-}
-
-.postman {
-    display: inline;
-    margin-inline: .3rem;
-}
-
-.mySql {
-    display: inline;
-    margin-inline: .1rem;
-
-}
-
-.jest {
-    display: inline;
-}
-
-.figma {
-    display: inline;
-    width: 28px;
-    margin-inline: .3rem;
-}
-
-.supabase {
-    display: inline;
-    width: 40px;
-    margin-inline: .2rem;
-
-}
