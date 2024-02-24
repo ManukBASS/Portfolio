@@ -34,7 +34,7 @@
   {
     "title": "En desarrollo...",
     "image": "/img/mobile_work_caffe.png",
-    "description": "Este proyecto será un glosario de recetas para preparar tu café favorito. . Será desarrollada con React Native y Typescript",
+    "description": "Este proyecto será un glosario de recetas para preparar tu café favorito. Será desarrollada con React Native y Typescript",
     "githubLink": "",
     "tools": ["REACT"],
     "other-tools": ["BX-MOBILE-ALT"]

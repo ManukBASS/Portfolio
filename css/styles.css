@@ -558,11 +558,29 @@ img {
     }
 }
 
+@media only screen and (max-width: 407px) {
+
+    .about__social {
+        display: flex;
+        align-items: center;
+    }
+
+    .about__social i {
+        font-size: 18px;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     #gata-img {
         max-width: 300px;
         max-height: 300px;
+    }
+
+    .about__social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 

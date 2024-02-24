@@ -1,3 +1,12 @@
+/*===== GET FULL YEAR =====*/
+const nameElement = document.getElementById('footer__name');
+
+// Obtener el año actual
+const currentYear = new Date().getFullYear();
+
+// Agregar el año actual al contenido del h2
+nameElement.innerHTML += ', ' + currentYear;
+
 /*===== MENU SHOW =====*/
 const showMenu = (toggleId, navId) => {
     const toggle = document.getElementById(toggleId),
