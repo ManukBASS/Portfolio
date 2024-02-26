@@ -16,6 +16,14 @@
     "tools": ["REACT", "MATERIALUI", "FIREBASE"]
   },
   {
+    "title": "Miusik (En Desarrollo..)",
+    "image": "/img/work-miusik-enhanced.jpeg",
+    "description": "Miusik es la mejor plataforma para reproducir música! Escucha a tus artistas favoritos, guarda tus canciones preferidas y crea tus propias playlist!",
+    "liveLink": "https://miusik-enhanced.vercel.app/",
+    "githubLink": "https://github.com/ManukBASS/Miusik-Enhanced",
+    "tools": ["NEXTJS", "REACT", "TYPESCRIPT", "MATERIALUI", "SUPABASE"]
+  },
+  {
     "title": "To-Do List",
     "image": "/img/work-to_do_list.jpeg",
     "description": "Una simple lista de tareas que permite agregar recordatorios que persisten en la memoria local de cada usuario",
@@ -30,14 +38,7 @@
     "githubLink": "https://github.com/ManukBASS/Clinica_Odontologica",
     "tools": ["REACT", "CSS3", "JAVA", "SPRING"]
   },
-  {
-    "title": "Miusik",
-    "image": "/img/work-miusik.jpeg",
-    "description": "Miusik es un MP3 Web Player con cinco canciones de mi preferencia ! Sube/Baja/Mutea el volumen, cambia de canción o déjalo con Auto-Play !",
-    "liveLink": "https://miusik.vercel.app/",
-    "githubLink": "https://github.com/ManukBASS/Miusik",
-    "tools": ["HTML5", "CSS3", "JAVASCRIPT"]
-  },
+
   {
     "title": "Space Tourism",
     "image": "/img/work-space_tourism.jpeg",
