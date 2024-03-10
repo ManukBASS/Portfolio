@@ -3,6 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <html lang="en">
+
+    </html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- ===== SCRIPT ===== -->
@@ -18,6 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="devicon.min.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css" />
     <link rel="icon" type="image/x-icon" href="/img/favicon-pf.ico">
     <title>Portfolio Manuel Zarraga</title>
 </head>
@@ -32,10 +36,17 @@
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link" data-translate="about">Sobre Mi</a></li>
+                    <!-- <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li> -->
+                    <li class="nav__item"><a href="#about" class="nav__link" data-section="profile"
+                            data-value="about">About Me</a></li>
                     <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link" data-section="profile"
+                            data-value="contact">Contact</a>
+                    </li>
+                    <!-- <div class="nav__item">
+                        <a href="#" class="nav__link" id="language-toggle">English / Español</a>
+                    </div> -->
+                    <!-- <li class="nav__item"><a href="#" class="nav__link" id="language-toggle">English / Español</a></li> -->
                 </ul>
             </div>
 
@@ -46,7 +57,7 @@
     </header>
 
     <main class="l-main">
-        <!--===== HOME =====-->
+        <!-- ===== HOME =====
         <section class="home" id="home">
             <div class="home__container bd-grid">
                 <h1 class="home__title"><span>LET'S</span><br>CODE.</h1>
@@ -56,11 +67,11 @@
                 </div>
 
             </div>
-        </section>
+        </section> -->
 
         <!--===== ABOUT =====-->
         <section class="about section" id="about">
-            <h2 class="section-title">Sobre Mi</h2>
+            <!-- <h2 class="section-title">Sobre Mi</h2> -->
 
             <div class="about__container bd-grid">
                 <div class="about__img">
@@ -68,14 +79,15 @@
                 </div>
 
                 <div>
-                    <h2 class="about__subtitle">Hola ! Soy Manu Zarraga</h2>
+                    <h2 class="about__subtitle" data-section="profile" data-value="about__subtitle">Hi! I'm Manuel
+                        Zarraga</h2>
                     <span class="about__profession">Fullstack Developer</span>
-                    <p class="about__text">Nacido en 1999, en Rio Negro, Argentina. Apasionado por los videojuegos, la
-                        Fórmula 1 (Forza Ferrari) y amante de los michis <i class='bx bxs-cat bx-tada-hover'
-                            id="gatito-icon"></i>
+                    <p class="about__text" data-section="profile" data-value="about__text">Born in 1999, in Río Negro,
+                        Argentina. Passionate about video games, Formula 1 (Forza Ferrari) and cat lover <i
+                            class='bx bxs-cat bx-tada-hover' id="gatito-icon" data-modal="mostrarModalGata"></i>
                         <br>
-                        Me gusta desarrollar programas y diseñar con un gran énfasis en los detalles. Actualmente me
-                        encuentro aprendiendo Typescript, Firebase, Supabase y React Native.
+                        I like to develop programs and design with a great emphasis on details. I'm currently learning
+                        Typescript, Firebase, Supabase and React Native.
                     </p>
 
                     <div class="about__social">
@@ -83,10 +95,10 @@
                                 class='bx bxl-linkedin bx-lg bx-tada-hover'></i></a>
                         <a href="https://github.com/ManukBASS" class="about__social-icon"><i
                                 class='bx bxl-github bx-lg bx-tada-hover'></i></a>
-                        <a href="/assets/CV Manuel Zarraga.pdf" download="CV Manuel Zarraga" class="about__cv">
+                        <a href="/assets/CV Manuel Zarraga.pdf" download="CV Manuel Zarraga" class="about__cv"
+                            data-section="profile" data-value="cv">
                             <i class='bx bx-file'></i>
-                            Descarga
-                            mi CV</a>
+                            Download my CV</a>
                     </div>
                 </div>
             </div>
@@ -95,7 +107,7 @@
         <!--===== MANDY MODAL =====-->
         <div class="modal" id="modal-container">
             <div class="modal-content">
-                <div class="modal-text">Prrr, Mandy te da la bienvenida!</div>
+                <div class="modal-text" data-section="profile" data-value="mandy">Prrr, Mandy welcomes you!</div>
                 <img src="/img/Mandy 2.jpeg" alt="Mi gata" id="gata-img">
                 <audio src="/assets/Mandy Meow.mp3" id="miau-audio"></audio>
                 <span class="modal-close" id="modal-close">&times;</span>
@@ -109,7 +121,9 @@
             <div class="portfolio__filters">
                 <div class="portfolio__filters_types">
                     <i class="fas fa-computer bx-lg computer-icon" onclick="filterProjects('computer')"></i>
-                    <p class="portfolio__filters-p">Desarrollo Web</pcla>
+                    <p class="portfolio__filters-p" data-section="portfolio" data-value="web-development">Web
+                        Development
+                    </p>
                 </div>
                 <div class="portfolio__filters_types">
                     <i class="fas fa-mobile-alt bx-lg mobile-icon" onclick="filterProjects('mobile')"></i>
@@ -123,18 +137,18 @@
 
         <!--===== CONTACT =====-->
         <section class="contact section" id="contact">
-            <h2 class="section-title">Contacto</h2>
+            <h2 class="section-title" data-section="profile" data-value="contact">Contact</h2>
 
 
             <div class="contact__text-container">
-                <p class="contact__text">
-                    Si deseas ponerte en contacto conmigo, puedes enviarme un correo electrónico directamente !
+                <p class="contact__text" data-section="portfolio" data-value="contact-me">
+                    "If you want to contact me, you can email me directly!
                 </p>
 
                 <div class="contact__mail-button">
                     <a href="mailto:manuzarraga@hotmail.com" class="contact__button">
                         <i class='bx bx-mail-send bx-sm'></i>
-                        <p>Enviar Correo</p>
+                        <p data-section="portfolio" data-value="send-mail">Send Mail</p>
                     </a>
                 </div>
             </div>
@@ -146,22 +160,24 @@
         <div class="footer__container bd-grid">
             <div class="footer__data">
                 <h2 id="footer__name" class="footer__title">MANU ZARRAGA</h2>
-                <p class="footer__text">Gracias por visitar mi página, espero que te hayan gustado mis trabajos ! <br>
-                    Te invito a ver mi GitHub para conocer más a fondo mis proyectos.</p>
+                <p class="footer__text" data-section="footer" data-value="footer-message">Thank you for visiting my
+                    page, I hope you liked my work! <br>
+                    I invite you to see my GitHub to learn more about my projects.</p>
             </div>
 
             <div class="footer__data">
-                <h2 class="footer__title">EXPLORA</h2>
+                <h2 class="footer__title" data-section="footer" data-value="explore">EXPLORE</h2>
                 <ul>
-                    <li><a href="#home" class="footer__link">Home</a></li>
-                    <li><a href="#about" class="footer__link">Sobre Mi</a></li>
+                    <li><a href="#about" class="footer__link" data-section="profile" data-value="about">About Me</a>
+                    </li>
                     <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
-                    <li><a href="#contact" class="footer__link">Contacto</a></li>
+                    <li><a href="#contact" class="footer__link" data-section="profile" data-value="contact">Contact</a>
+                    </li>
                 </ul>
             </div>
 
             <div class="footer__data">
-                <h2 class="footer__title">MIS REDES</h2>
+                <h2 class="footer__title" data-section="footer" data-value="networks">MY NETWORKS</h2>
                 <a href="https://www.instagram.com/manuu.z/?hl=es" class="footer__social"><i
                         class='bx bxl-instagram'></i></a>
                 <a href="https://twitter.com/Manuu_ZzZz" class="footer__social"><i class="devicon-twitter-original"

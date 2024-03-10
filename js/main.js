@@ -1,10 +1,10 @@
 /*===== GET FULL YEAR =====*/
 const nameElement = document.getElementById('footer__name');
 
-// Obtener el año actual
+// Get actual year
 const currentYear = new Date().getFullYear();
 
-// Agregar el año actual al contenido del h2
+// Add year to h2
 nameElement.innerHTML += ', ' + currentYear;
 
 /*===== MENU SHOW =====*/
@@ -87,7 +87,7 @@ sr.reveal('.contact__subtitle', {})
 sr.reveal('.contact__text', { interval: 200 })
 sr.reveal('.contact__button', { delay: 600 })
 
-/*MANDY*/
+/*===== MANDY MODAL =====*/
 
 function mostrarModalGata() {
     var modalContainer = document.getElementById("modal-container");
@@ -116,3 +116,4 @@ function cerrarModalGataOutside(event) {
 }
 
 document.getElementById("gatito-icon").addEventListener("click", mostrarModalGata);
+

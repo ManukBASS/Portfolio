@@ -2,7 +2,7 @@
   {
     "title": "Next Chat",
     "image": "/img/work-next_chat.jpeg",
-    "description": "Chat App creada con NextJs y React para el frontend y Firebase para el backend. La página permite registrarse/logearse y hablar con cualquier usuario registrado !",
+    "description": "Chat App created with NextJs and React for the frontend and Firebase for the backend. The page allows you to register/log in and talk to any registered user!",
     "liveLink": "https://next-js-firebase-chat.vercel.app/",
     "githubLink": "https://github.com/ManukBASS/NextJs-Firebase-Chat",
     "tools": ["NEXTJS", "REACT", "MATERIALUI", "FIREBASE"]
@@ -10,15 +10,15 @@
   {
     "title": "F1 E-Commerce",
     "image": "/img/work-pit_shop.jpeg",
-    "description": "E-commerce Fullstack, creado usando React y Material UI para el Frontend, Firebase para el Backend e integrado con Mercado Pago.",
+    "description": "Fullstack e-commerce, created using React and Material UI for the Frontend, Firebase for the Backend and integrated with Mercado Pago.",
     "liveLink": "https://pit-shop-enhanced.vercel.app/login",
     "githubLink": "https://github.com/ManukBASS/Pit-Shop-Enhanced",
     "tools": ["REACT", "MATERIALUI", "FIREBASE"]
   },
   {
-    "title": "Miusik (En Desarrollo..)",
+    "title": "Miusik",
     "image": "/img/work-miusik-enhanced.jpeg",
-    "description": "Miusik es la mejor plataforma para reproducir música! Escucha a tus artistas favoritos, guarda tus canciones preferidas y crea tus propias playlist!",
+    "description": "Miusik is the best platform to play music! Listen to your favorite artists, save your favorite songs and create your own playlists!",
     "liveLink": "https://miusik-enhanced.vercel.app/",
     "githubLink": "https://github.com/ManukBASS/Miusik-Enhanced",
     "tools": ["NEXTJS", "REACT", "TYPESCRIPT", "MATERIALUI", "SUPABASE"]
@@ -26,15 +26,15 @@
   {
     "title": "To-Do List",
     "image": "/img/work-to_do_list.jpeg",
-    "description": "Una simple lista de tareas que permite agregar recordatorios que persisten en la memoria local de cada usuario",
+    "description": "A simple task list that allows you to add reminders that persist in each user's local memory",
     "liveLink": "https://to-do-list-7wsm.vercel.app/",
     "githubLink": "https://github.com/ManukBASS/To-Do-List",
     "tools": ["REACT", "SASS"]
   },
   {
-    "title": "Clínica Odontológica",
+    "title": "Dental Clinic",
     "image": "/img/work-clinica.jpeg",
-    "description": "App CRUD para una clínica odontológica. La misma permite ver, crear, editar o borrar los pacientes de la clínica",
+    "description": "CRUD app for a dental clinic. It allows you to call the Java API to view, create, edit or delete clinic patients.",
     "githubLink": "https://github.com/ManukBASS/Clinica_Odontologica",
     "tools": ["REACT", "CSS3", "JAVA", "SPRING"]
   },
@@ -42,7 +42,7 @@
   {
     "title": "Space Tourism",
     "image": "/img/work-space_tourism.jpeg",
-    "description": "Space Tourism es un desafío de Frontend Mentor, cuya propuesta era realizar una página con HTML, CSS y JS. Opté hacerla con React y Sass para aprender más",
+    "description": "Space Tourism is a challenge from Frontend Mentor, whose proposal was to make a page with HTML, CSS and JS. I chose to do it with React and Sass to learn more",
     "liveLink": "https://space-tourism-seven-nu.vercel.app/",
     "githubLink": "https://github.com/ManukBASS/Space_Tourism",
     "tools": ["REACT", "SASS"]

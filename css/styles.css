@@ -197,7 +197,7 @@ img {
 }
 
 /*===== HOME =====*/
-.home {
+/* .home {
     position: relative;
     background-color: var(--global-color);
     overflow: hidden;
@@ -235,7 +235,7 @@ img {
     right: 0;
     bottom: 0;
     width: 295px;
-}
+} */
 
 /* ===== ABOUT =====*/
 .about__container {

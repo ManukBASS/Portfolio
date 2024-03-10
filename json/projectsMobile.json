@@ -2,7 +2,7 @@
   {
     "title": "Pokedex",
     "image": "/img/mobile_work_pokedex.png",
-    "description": "Tu propia PokeDex al alcance de tu mano. Mira a detalle las estadisticas de todos los Pokemon existentes y guarda tus favoritos !",
+    "description": "Your own PokeDex at your fingertips. See in detail the statistics of all existing Pokemon and save your favorites!",
     "githubLink": "https://github.com/ManukBASS/PokedexReactNative",
     "tools": ["REACT"],
     "other-tools": ["BX-MOBILE-ALT"]
@@ -10,39 +10,39 @@
   {
     "title": "Bank-Z",
     "image": "/img/mobile_work_bankz.png",
-    "description": "Bank Z es tu Home Banking de confianza ! Ingresa o Retira efectivo, copia tus datos al clipboard y revisa tu actividad reciente !",
+    "description": "Bank Z is your trusted Home Banking! Enter or Withdraw cash, copy your data to the clipboard and review your recent activity!",
     "githubLink": "https://github.com/ManukBASS/Bank-Z",
     "tools": ["REACT", "FIREBASE"],
     "other-tools": ["BX-MOBILE-ALT"]
   },
   {
-    "title": "En desarrollo...",
+    "title": "Miusik Mobile (WIP)",
     "image": "/img/mobile_work_miusik.png",
-    "description": "Este proyecto será una versión en móvil de mi página Miusik, será desarrollada con React Native, Typescript y Supabase",
+    "description": "This project will be a mobile version of my Miusik page, it will be developed with React Native, Typescript and Supabase",
     "githubLink": "",
     "tools": ["REACT"],
     "other-tools": ["BX-MOBILE-ALT"]
   },
   {
-    "title": "En desarrollo...",
+    "title": "Perk (WIP)",
     "image": "/img/mobile_work_perk.png",
-    "description": "Este proyecto será una app que permita crear y guardar builds para el videojuego Dead By Daylight. Será desarrollada con React Native, Typescript y Supabase",
+    "description": "This project will be an app that allows you to create and save builds for the video game Dead By Daylight. It will be developed with React Native, Typescript and Supabase",
     "githubLink": "",
     "tools": ["REACT"],
     "other-tools": ["BX-MOBILE-ALT"]
   },
   {
-    "title": "En desarrollo...",
+    "title": "Caffè (WIP)",
     "image": "/img/mobile_work_caffe.png",
-    "description": "Este proyecto será un glosario de recetas para preparar tu café favorito. Será desarrollada con React Native y Typescript",
+    "description": "This project will be a glossary of recipes to prepare your favorite coffee. It will be developed with React Native and Typescript",
     "githubLink": "",
     "tools": ["REACT"],
     "other-tools": ["BX-MOBILE-ALT"]
   },
   {
-    "title": "En desarrollo...",
+    "title": "Fuel Meter (WIP)",
     "image": "/img/mobile_work_fuelMeter.png",
-    "description": "Esta app de uso personal servirá como medidor de gasolina para mi Citroën Mahari y permitira saber en tiempo real la cantidad de L restantes del tanque. Será desarrollada con React Native, Typescript y Supabase",
+    "description": "This personal use app use will serve as a gasoline meter for my Citroën Mahari and will allow me to know in real time the amount of L remaining in the tank. It will be developed with React Native, Typescript and Supabase",
     "githubLink": "",
     "tools": ["REACT"],
     "other-tools": ["BX-MOBILE-ALT"]
