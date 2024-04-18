@@ -72,6 +72,9 @@ sr.reveal('.about__text', { delay: 500 })
 sr.reveal('.about__social-icon', { delay: 600, interval: 100 })
 sr.reveal('.about__cv', { delay: 900, interval: 300 })
 
+/*SCROLL EXPERIENCE*/
+sr.reveal('.experience-card', { delay: 300, interval: 100 })
+
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle', {})
 sr.reveal('.skills__tech', { distance: '20px', interval: 100 })

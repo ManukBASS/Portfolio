@@ -36,17 +36,11 @@
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <!-- <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li> -->
-                    <li class="nav__item"><a href="#about" class="nav__link" data-section="profile"
-                            data-value="about">About Me</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
                     <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link" data-section="profile"
-                            data-value="contact">Contact</a>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a>
                     </li>
-                    <!-- <div class="nav__item">
-                        <a href="#" class="nav__link" id="language-toggle">English / Español</a>
-                    </div> -->
-                    <!-- <li class="nav__item"><a href="#" class="nav__link" id="language-toggle">English / Español</a></li> -->
                 </ul>
             </div>
 
@@ -57,21 +51,9 @@
     </header>
 
     <main class="l-main">
-        <!-- ===== HOME =====
-        <section class="home" id="home">
-            <div class="home__container bd-grid">
-                <h1 class="home__title"><span>LET'S</span><br>CODE.</h1>
-
-                <div class="home__scroll">
-                    <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt'></i>Empecemos</a>
-                </div>
-
-            </div>
-        </section> -->
-
         <!--===== ABOUT =====-->
         <section class="about section" id="about">
-            <!-- <h2 class="section-title">Sobre Mi</h2> -->
+            <h2 class="section-title">About Me</h2>
 
             <div class="about__container bd-grid">
                 <div class="about__img">
@@ -79,12 +61,12 @@
                 </div>
 
                 <div>
-                    <h2 class="about__subtitle" data-section="profile" data-value="about__subtitle">Hi! I'm Manuel
+                    <h2 class="about__subtitle">Hi! I'm Manuel
                         Zarraga</h2>
                     <span class="about__profession">Fullstack Developer</span>
-                    <p class="about__text" data-section="profile" data-value="about__text">Born in 1999, in Río Negro,
+                    <p class="about__text">Born in 1999, in Río Negro,
                         Argentina. Passionate about video games, Formula 1 (Forza Ferrari) and cat lover <i
-                            class='bx bxs-cat bx-tada-hover' id="gatito-icon" data-modal="mostrarModalGata"></i>
+                            class='bx bxs-cat bx-tada-hover' id="gatito-icon"></i>
                         <br>
                         I like to develop programs and design with a great emphasis on details. I'm currently learning
                         Typescript, Firebase, Supabase and React Native.
@@ -95,8 +77,7 @@
                                 class='bx bxl-linkedin bx-lg bx-tada-hover'></i></a>
                         <a href="https://github.com/ManukBASS" class="about__social-icon"><i
                                 class='bx bxl-github bx-lg bx-tada-hover'></i></a>
-                        <a href="/assets/Resume Manuel Zarraga.pdf" download="Resume Manuel Zarraga" class="about__cv"
-                            data-section="profile" data-value="cv">
+                        <a href="/assets/Resume Manuel Zarraga.pdf" download="Resume Manuel Zarraga" class="about__cv">
                             <i class='bx bx-file'></i>
                             Download my CV</a>
                     </div>
@@ -107,12 +88,82 @@
         <!--===== MANDY MODAL =====-->
         <div class="modal" id="modal-container">
             <div class="modal-content">
-                <div class="modal-text" data-section="profile" data-value="mandy">Prrr, Mandy welcomes you!</div>
+                <div class="modal-text">Prrr, Mandy welcomes you!</div>
                 <img src="/img/Mandy 2.jpeg" alt="Mi gata" id="gata-img">
                 <audio src="/assets/Mandy Meow.mp3" id="miau-audio"></audio>
                 <span class="modal-close" id="modal-close">&times;</span>
             </div>
         </div>
+
+        <!--===== EXPERIENCE =====-->
+        <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-container">
+                <!-- Pawtrics -->
+                <div class="experience-card">
+                    <div class="experience-card-header">
+                        <p>Frontend Developer</p>
+                        <p>May 2023 - Feb 2024</p>
+                        <!-- <i class="fa-solid fa-plus"></i> -->
+                    </div>
+                    <hr />
+                    <div>
+                        <div class="experience-location-company">
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p>Argentina (Remote)</p>
+                            </div>
+                            <div class="company">
+                                <i class="fa-solid fa-building"></i>
+                                <p>Pawtrics Software, LLC</p>
+                            </div>
+                        </div>
+                        <p class="experience-text">I worked creating and designing visual components for the app.
+                            Additionally, I was
+                            in charge
+                            of taking information from the database and displaying it on the screen using CRUD
+                            operations.</p>
+                    </div>
+                    <div class="experience-techs">
+                        <i id="tech" class="devicon-react-original colored" style="font-size: x-large;"></i>
+                        <i id="tech" class="devicon-nextjs-plain colored" style="font-size: x-large;"></i>
+                        <i id="tech" class="devicon-typescript-plain colored" style="font-size: x-large;"></i>
+                        <i id="tech" class="devicon-materialui-plain colored" style="font-size: x-large;"></i>
+                        <i id="tech" class="devicon-supabase-plain colored" style="font-size: x-large;"></i>
+                    </div>
+                </div>
+
+                <!-- DataRacing -->
+                <div class="experience-card">
+                    <div class="experience-card-header">
+                        <p>Frontend Web Freelancer</p>
+                        <p>March 2024 - April 2024</i></p>
+                        <!-- <i class="fa-solid fa-plus"</i> -->
+                    </div>
+                    <hr />
+                    <div>
+                        <div class="experience-location-company">
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p>Argentina (Remote)</p>
+                            </div>
+                            <div class="company">
+                                <i class="fa-solid fa-building"></i>
+                                <p>DataRacing</p>
+                            </div>
+                        </div>
+                        <p class="experience-text">My job was to create a single page for the company, where the user
+                            can search for a specific car using multiple filters and visualize the information on their
+                            screen once the car is loaded.</p>
+                    </div>
+                    <div class="experience-techs">
+                        <i class="devicon-html5-plain colored" style="font-size: x-large;"></i>
+                        <i class="devicon-css3-plain colored" style="font-size: x-large;"></i>
+                        <i class="devicon-javascript-plain colored" style="font-size: x-large;"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!--===== PORTFOLIO =====-->
         <section class="portfolio section" id="portfolio">
@@ -121,7 +172,7 @@
             <div class="portfolio__filters">
                 <div class="portfolio__filters_types">
                     <i class="fas fa-computer bx-lg computer-icon" onclick="filterProjects('computer')"></i>
-                    <p class="portfolio__filters-p" data-section="portfolio" data-value="web-development">Web
+                    <p class="portfolio__filters-p">Web
                         Development
                     </p>
                 </div>
@@ -137,18 +188,18 @@
 
         <!--===== CONTACT =====-->
         <section class="contact section" id="contact">
-            <h2 class="section-title" data-section="profile" data-value="contact">Contact</h2>
+            <h2 class="section-title">Contact</h2>
 
 
             <div class="contact__text-container">
-                <p class="contact__text" data-section="portfolio" data-value="contact-me">
+                <p class="contact__text">
                     "If you want to contact me, you can email me directly!
                 </p>
 
                 <div class="contact__mail-button">
                     <a href="mailto:manuzarraga@hotmail.com" class="contact__button">
                         <i class='bx bx-mail-send bx-sm'></i>
-                        <p data-section="portfolio" data-value="send-mail">Send Mail</p>
+                        <p>Send Mail</p>
                     </a>
                 </div>
             </div>
@@ -160,24 +211,24 @@
         <div class="footer__container bd-grid">
             <div class="footer__data">
                 <h2 id="footer__name" class="footer__title">MANU ZARRAGA</h2>
-                <p class="footer__text" data-section="footer" data-value="footer-message">Thank you for visiting my
+                <p class="footer__text">Thank you for visiting my
                     page, I hope you liked my work! <br>
                     I invite you to see my GitHub to learn more about my projects.</p>
             </div>
 
             <div class="footer__data">
-                <h2 class="footer__title" data-section="footer" data-value="explore">EXPLORE</h2>
+                <h2 class="footer__title">EXPLORE</h2>
                 <ul>
-                    <li><a href="#about" class="footer__link" data-section="profile" data-value="about">About Me</a>
+                    <li><a href="#about" class="footer__link">About Me</a>
                     </li>
                     <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
-                    <li><a href="#contact" class="footer__link" data-section="profile" data-value="contact">Contact</a>
+                    <li><a href="#contact" class="footer__link">Contact</a>
                     </li>
                 </ul>
             </div>
 
             <div class="footer__data">
-                <h2 class="footer__title" data-section="footer" data-value="networks">MY NETWORKS</h2>
+                <h2 class="footer__title" data-value="networks">MY NETWORKS</h2>
                 <a href="https://www.instagram.com/manuu.z/?hl=es" class="footer__social"><i
                         class='bx bxl-instagram'></i></a>
                 <a href="https://twitter.com/Manuu_ZzZz" class="footer__social"><i class="devicon-twitter-original"
