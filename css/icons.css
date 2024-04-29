@@ -3,75 +3,7 @@
     cursor: pointer;
 }
 
-.flags {
-    width: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.flags__item {
-    width: 30px;
-}
-
-.flags__img {
-    display: block;
-    cursor: pointer;
-}
-
 /* ICON COLORS */
-
-.bxl-html5 {
-    color: #e34c26;
-}
-
-.bxl-css3 {
-    color: #264de4;
-}
-
-.bxl-javascript {
-    color: #ecd32c;
-}
-
-.bxl-tailwind-css {
-    color: #07B0CE;
-}
-
-.bxl-react {
-    color: #61DBFB;
-}
-
-.bxl-java {
-    color: #f89820;
-}
-
-.bxl-sass {
-    color: #cc6699;
-}
-
-.bxl-redux {
-    color: #764ABC;
-}
-
-.bxl-typescript {
-    color: #2D79C7;
-}
-
-.bxl-spring-boot {
-    color: #67AA3C;
-}
-
-.bxl-nodejs {
-    color: #68A063;
-}
-
-.bxl-python {
-    color: #3F76A5;
-}
-
-.bxl-firebase {
-    color: #FFA000
-}
 
 .bx-mobile-alt {
     color: #207DB3;
@@ -79,8 +11,4 @@
 
 .bxs-cat {
     color: #0B090C;
-}
-
-.bxs-error {
-    color: #FFA000;
 }

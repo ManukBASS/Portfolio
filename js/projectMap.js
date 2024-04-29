@@ -43,7 +43,7 @@ function renderProjects(projects, containerId, isMobile) {
     sr.reveal('.portfolio__img', { interval: 100 });
 }
 
-
+// Projects Fetch
 function filterProjects(category) {
     if (category === 'computer') {
         renderComputerProjects();
@@ -52,6 +52,7 @@ function filterProjects(category) {
     }
 }
 
+// Projects Fetch
 axios.get('/json/projects.json')
     .then(response => {
         computerProjects.push(...response.data);

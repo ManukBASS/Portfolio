@@ -1,10 +1,10 @@
-/*===== GET FULL YEAR =====*/
+/*===== YEAR FUNCTIONS =====*/
 const nameElement = document.getElementById('footer__name');
 
-// Get actual year
+// Actual year
 const currentYear = new Date().getFullYear();
 
-// Add year to h2
+// DOM H2
 nameElement.innerHTML += ', ' + currentYear;
 
 /*===== MENU SHOW =====*/
