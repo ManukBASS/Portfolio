@@ -18,7 +18,6 @@ function renderProjects(projects, containerId, isMobile) {
 
         const githubIcon = isDevelopment ? '<i class="bx bxs-error bx-lg"></i>' : `<a target="_blank" href="${project.githubLink}"><i class='bx bxl-github bx-lg'></i></a>`;
         const toolsIcons = project.tools.length > 0 && !isDevelopment ? project.tools.map(tool => `<i class="devicon-${tool.toLowerCase()}-plain colored" style="font-size: xx-large;"></i>`).join('') : '';
-        const mobileIcon = project['other-tools'] && project['other-tools'].includes('BX-MOBILE-ALT') && !isDevelopment ? `<i class='bx bx-mobile-alt bx-lg'></i>` : '';
 
         const projectCard = `
             <div class="portfolio__img ${isMobile ? 'mobile-project' : ''}">
@@ -33,7 +32,6 @@ function renderProjects(projects, containerId, isMobile) {
                 </div>
                 <div class="portfolio-tools">
                     ${toolsIcons}
-                    ${mobileIcon}
                 </div>
             </div>
         `;

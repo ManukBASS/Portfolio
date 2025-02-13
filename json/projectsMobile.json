@@ -4,16 +4,21 @@
     "image": "/img/mobile_work_pokedex.png",
     "description": "Your own PokeDex at your fingertips. See in detail the statistics of all existing Pokemon and save your favorites!",
     "githubLink": "https://github.com/ManukBASS/PokedexReactNative",
-    "tools": ["REACT"],
-    "other-tools": ["BX-MOBILE-ALT"]
+    "tools": ["REACT", "ANDROID"]
   },
   {
     "title": "Bank-Z",
     "image": "/img/mobile_work_bankz.png",
     "description": "Bank Z is your trusted Home Banking! Enter or Withdraw cash, copy your data to the clipboard and review your recent activity!",
     "githubLink": "https://github.com/ManukBASS/Bank-Z",
-    "tools": ["REACT", "FIREBASE"],
-    "other-tools": ["BX-MOBILE-ALT"]
+    "tools": ["REACT", "FIREBASE", "ANDROID"]
+  },
+  {
+    "title": "Daditos (WIP)",
+    "image": "/img/mobile_work_daditos.png",
+    "description": "This project will be a mobile version of 'Daditos', a web app designed for role-playing games. It will be developed with React Native and Supabase",
+    "githubLink": "",
+    "tools": ["REACT", "SUPABASE", "ANDROID", "FIGMA"]
   },
   {
     "title": "Caffè (WIP)",
@@ -21,31 +26,20 @@
     "description": "This project will be a glossary about coffee drinks, recipes, grains and brewers. It will be developed with React Native and Typescript",
     "githubLink": "",
     "liveLink": "https://www.figma.com/proto/HADMep13nwj3JAr2oqDHDZ/Caff%C3%A8?page-id=0%3A1&node-id=11-52&viewport=280%2C338%2C0.42&t=lWe5bBcFcXtYZD6V-1&scaling=scale-down&starting-point-node-id=11%3A52",
-    "tools": ["REACT", "FIGMA"],
-    "other-tools": ["BX-MOBILE-ALT"]
-  },
-  {
-    "title": "Miusik Mobile (WIP)",
-    "image": "/img/mobile_work_miusik.png",
-    "description": "This project will be a mobile version of my Miusik page, it will be developed with React Native, Typescript and Supabase",
-    "githubLink": "",
-    "tools": ["REACT"],
-    "other-tools": ["BX-MOBILE-ALT"]
+    "tools": ["REACT", "ANDROID", "FIGMA"]
   },
   {
     "title": "Perk (WIP)",
     "image": "/img/mobile_work_perk.png",
     "description": "This project will be an app that allows you to create and save builds for the video game Dead By Daylight. It will be developed with React Native, Typescript and Supabase",
     "githubLink": "",
-    "tools": ["REACT"],
-    "other-tools": ["BX-MOBILE-ALT"]
+    "tools": ["REACT", "ANDROID"]
   },
   {
     "title": "Fuel Meter (WIP)",
     "image": "/img/mobile_work_fuelMeter.png",
     "description": "This personal use app use will serve as a gasoline meter for my Citroën Mahari and will allow me to know in real time the amount of L remaining in the tank. It will be developed with React Native, Typescript and Supabase",
     "githubLink": "",
-    "tools": ["REACT"],
-    "other-tools": ["BX-MOBILE-ALT"]
+    "tools": ["REACT", "ANDROID"]
   }
 ]
